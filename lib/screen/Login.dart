@@ -38,6 +38,18 @@ class Login extends StatelessWidget {
                         color: Colors.green,
                       ),
                     ),
+                ),
+                SizedBox(height: 20),
+                TextField(
+                  keyboardType: TextInputType.emailAddress,
+                  decoration: InputDecoration(
+                    labelText: "Email",
+                    hintText: "Masukkan Email Anda!",
+                    prefixIcon: const Icon(Icons.email_outlined),
+                    border: OutlineInputBorder(
+                      borderRadius: BorderRadius.circular(12),
+                    )
+                  ),
                 )
               ],
             ),
