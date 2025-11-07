@@ -17,7 +17,7 @@ class Splashscreen3 extends StatelessWidget {
               decoration: BoxDecoration(
                 shape: BoxShape.circle,
                 image: DecorationImage(
-                  image: AssetImage("assets/images/image1.png"),
+                  image: AssetImage("assets/images/image3.png"),
                   fit: BoxFit.cover,
                 ),
               ),
@@ -46,25 +46,25 @@ class Splashscreen3 extends StatelessWidget {
                   width: 10,
                   decoration: BoxDecoration(
                     shape: BoxShape.circle,
+                    color: Colors.grey,
+                  ),
+                ),
+                SizedBox(width: 10),
+                Container(
+                  height: 10,
+                  width: 10,
+                  decoration: BoxDecoration(
+                    shape: BoxShape.circle,
+                    color: Colors.grey,
+                  ),
+                ),
+                SizedBox(width: 10),
+                Container(
+                  height: 10,
+                  width: 10,
+                  decoration: BoxDecoration(
+                    shape: BoxShape.circle,
                     color: Colors.green,
-                  ),
-                ),
-                SizedBox(width: 10),
-                Container(
-                  height: 10,
-                  width: 10,
-                  decoration: BoxDecoration(
-                    shape: BoxShape.circle,
-                    color: Colors.grey,
-                  ),
-                ),
-                SizedBox(width: 10),
-                Container(
-                  height: 10,
-                  width: 10,
-                  decoration: BoxDecoration(
-                    shape: BoxShape.circle,
-                    color: Colors.grey,
                   ),
                 ),
               ],

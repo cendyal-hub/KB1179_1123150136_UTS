@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:uts_appmobile/screen/SplashScreen2.dart';
 
 class Splashscreen1 extends StatelessWidget {
   const Splashscreen1({super.key});
@@ -25,7 +26,11 @@ class Splashscreen1 extends StatelessWidget {
             SizedBox(height: 40),
             Text(
               "Welcome",
-              style: TextStyle(fontSize: 28.0, fontWeight: FontWeight.bold, letterSpacing: 0.5),
+              style: TextStyle(
+                fontSize: 28.0,
+                fontWeight: FontWeight.bold,
+                letterSpacing: 0.5,
+              ),
             ),
             SizedBox(height: 12),
             Text(
@@ -79,17 +84,25 @@ class Splashscreen1 extends StatelessWidget {
                 child: ElevatedButton(
                   onPressed: () {
                     //call next pages
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => Splashscreen2()),
+                    );
                   },
                   style: ElevatedButton.styleFrom(
                     backgroundColor: const Color(0xFF4E944F),
                     foregroundColor: Colors.white,
                     shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(12)
+                      borderRadius: BorderRadius.circular(12),
                     ),
                   ),
                   child: Text(
                     "Continue",
-                    style: TextStyle(fontSize: 16.0, fontWeight: FontWeight.w600, letterSpacing: 0.8),
+                    style: TextStyle(
+                      fontSize: 16.0,
+                      fontWeight: FontWeight.w600,
+                      letterSpacing: 0.8,
+                    ),
                   ),
                 ),
               ),
