@@ -30,7 +30,7 @@ class Splashscreen2 extends StatelessWidget {
             ),
             SizedBox(height: 12),
             Text(
-              "Forgot to bring your wallet\nwhen you are shopping?",
+              "Dont Worry! we got you cover.\n use wallie instead of cash!",
               textAlign: TextAlign.center,
               style: TextStyle(
                 fontSize: 14.0,
