@@ -115,9 +115,11 @@ class Login extends StatelessWidget {
                 const SizedBox(height: 20),
                 OutlinedButton.icon(
                   onPressed: () {},
-                  icon: const Icon(Icons.g_mobiledata, color: Colors.red),
+                  icon: const Icon(Icons.g_mobiledata, color: Colors.red, size: 30),
                   label: const Text("Login dengan Google", style: TextStyle(
                     color: Colors.black87,
+                    fontSize: 16,
+                    fontWeight: FontWeight.w600
                   ),
                   ),
                   style: OutlinedButton.styleFrom(
