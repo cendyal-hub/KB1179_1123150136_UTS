@@ -6,7 +6,24 @@ class Splashscreen1 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-            
+            body: Center(
+              child: Column(
+                children: [
+                  SizedBox(height: 50),
+                  Container(
+                    width: 240,
+                    height: 240,
+                    decoration: BoxDecoration(
+                      shape: BoxShape.circle,
+                      image: DecorationImage(
+                        image: AssetImage("assets/images/image1.png"),
+                        fit: BoxFit.cover,
+                        )
+                    ),
+                  )
+                ],
+              ),
+            ),
           );
   }
 }
