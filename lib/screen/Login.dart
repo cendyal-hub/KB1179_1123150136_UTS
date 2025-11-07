@@ -75,8 +75,27 @@ class Login extends StatelessWidget {
                       fontSize: 14.0,
                       color: Colors.blue,
                     ),
-                  ),),
-                )
+                  ),
+                  ),
+                ),
+                SizedBox(height: 30),
+                ElevatedButton(onPressed: () {}, 
+                style: ElevatedButton.styleFrom(
+                  backgroundColor: Colors.blue,
+                  padding: const EdgeInsets.symmetric(vertical: 15),
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(12),
+                  ),
+                  elevation: 2,
+                ),
+                child: const Text(
+                  "Login",
+                  style: TextStyle(
+                    fontSize: 18.0,
+                    color: Colors.white,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),)
               ],
             ),
           ),
