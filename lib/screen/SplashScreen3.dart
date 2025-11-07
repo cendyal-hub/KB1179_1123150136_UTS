@@ -30,7 +30,7 @@ class Splashscreen3 extends StatelessWidget {
             ),
             SizedBox(height: 12),
             Text(
-              "Forgot to bring your wallet\nwhen you are shopping?",
+              "Let's try Wallie now! \n And get the best solution.",
               textAlign: TextAlign.center,
               style: TextStyle(
                 fontSize: 14.0,
@@ -93,7 +93,7 @@ class Splashscreen3 extends StatelessWidget {
                     ),
                   ),
                   child: Text(
-                    "Continue",
+                    "Get Started",
                     style: TextStyle(fontSize: 16.0, fontWeight: FontWeight.w600, letterSpacing: 0.8),
                   ),
                 ),
